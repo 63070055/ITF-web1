@@ -1,11 +1,11 @@
 <html>
     <head>
         <title>Hello world</title>
-        <meiecharset="UTF-8>
+        <meta charset="UTF-8" \>
     </head>
     <body>
-        <h1>My Nattapong Waijaree</h1>
-        <p>My My nickname Earth</p>
+        <h1>My frist Heading</h1>
+        <p>My frist paragaragraph</p>
         <img src="e1_3.jpg">
         <img src="e7630a608e5b1b9a558948608fc5d710.jpg">
         <br>
@@ -19,4 +19,4 @@
         </u1>
 
     </body>
-</html>   
+</html>    
