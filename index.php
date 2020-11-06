@@ -1,24 +1,28 @@
-<html>
-    <head>
-        <title>Hello world</title>
-        <meta charset="UTF-8" \>
-    </head>
-    <body>
-        <h1>My frist Heading</h1>
-        <p>My frist paragaragraph</p>
-        <img src="e1_3.jpg">
-        <img src="e7630a608e5b1b9a558948608fc5d710.jpg">
-        <img src="Rare-Things-Seen-1.jpg">
-        <br>
-        <a href="http://www.it.kmitl.ac.th">This is a Link</a>
-
-        <h2>The unordered list</h2>
-        <u1>
-            <li>ชื่อ-นามสกุล : ณัฐพงษ์ ไวยจรี</li>
-            <li>ชื่อเล่น : เอิร์ธ</li>
-            <li>เรื่องตลก : เพื่อนของผมส่งข้อความมาบอกว่า เขาพลาดไปแล้ว เขากำลังสอนคณิตลูกชายอยู่ แล้วบอกให้ลูกเอานิ้วขึ้นมาสิบเอ็ดนิ้ว 
-                ลูกของเขาตกใจมากๆ แต่เขาก็ยังไม่รู้ตัว จนกระทั่งลูกของเขาตะโกนบอกแม่ว่า “แม่ แม่ ผมมีนิ้วแค่สิบนิ้วเอง”</li>
-        </u1>
-
-    </body>
-</html>    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LAB-ITF 63070055</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="e1_3.jpg" style="height:300px;" style="width: 100px;"class="img-fluid rounded" />
+            </div>
+            <div class="col-sm-3">
+                <img src="download (1).jpg" style="height:100px;" style="width: 50px;"class="img-fluid img-thumbnail" />
+                <img src="download.jpg" style="height:100px;" style="width: 50px;"class="img-fluid img-thumbnail" />
+                <img src="_ขายแมวเมนคูน1-e1425953981501-750x410.jpg" style="height:100px;" style="width: 50px;"class="img-fluid img-thumbnail" />
+            </div>
+            <div class="col-sm-3">
+                <img src="Maine-Coon-02.jpg" style="height: 200px;" style="width: 50px;" class="img-fluid" />
+                <img src="thailand-krabi-rok-island-gettyimages-508411800-news.jpg" style="height: 100px;" style="width: 50px;" class="img-fluid img-thumbnail" />
+            </div>
+        </div> <!-- Close Row -->
+    </div> <!-- Close container -->
+</body>
+</html>  
