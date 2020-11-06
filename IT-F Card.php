@@ -32,7 +32,7 @@
             </div>
             <div class="col-sm-4">
                 <div class="card">
-                    <img class="card-img-top" src="789.png">
+                    <img class="card-img-top" src="789.jpg">
                     <div class="card-body">
                         <h4class="card-title">Hamster so cute </h4>
                         <p class="card-text">Hamsters are rodents (order Rodentia) belonging to the subfamily Cricetinae, which contains 19 species classified in seven genera.</p>
