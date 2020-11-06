@@ -10,15 +10,15 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-6">
                 <img src="e1_3.jpg" style="height:300px;" style="width: 100px;"class="img-fluid rounded" />
             </div>
-            <div class="col-sm-3">
+            <div class="col-md-3">
                 <img src="download (1).jpg" style="height:100px;" style="width: 50px;"class="img-fluid img-thumbnail" />
                 <img src="download.jpg" style="height:100px;" style="width: 50px;"class="img-fluid img-thumbnail" />
                 <img src="_ขายแมวเมนคูน1-e1425953981501-750x410.jpg" style="height:100px;" style="width: 50px;"class="img-fluid img-thumbnail" />
             </div>
-            <div class="col-sm-3">
+            <div class="col-md-3">
                 <img src="Maine-Coon-02.jpg" style="height: 200px;" style="width: 50px;" class="img-fluid" />
                 <img src="thailand-krabi-rok-island-gettyimages-508411800-news.jpg" style="height: 100px;" style="width: 50px;" class="img-fluid img-thumbnail" />
             </div>
