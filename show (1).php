@@ -22,7 +22,7 @@
         <tr>
             <thead class="thead-dark">
                 <th width="120"> <div align="center">Name</div></th>
-                <th width="350"> <div align="center">Comment </div></th>
+                <th width="700"> <div align="center">Comment </div></th>
                 <th width="200"> <div align="center">Action</div></th>
             </thead>
         </tr>
