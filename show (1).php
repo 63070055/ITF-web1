@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>ITF Lab</title>
+title>ITF Lab</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -20,24 +20,24 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 <div class="contanier">
     <table width="600" border="1">
     <tr>
-        <th width="100"> <div align="center">Name</div></th>
+        <th width="120"> <div align="center">Name</div></th>
         <th width="350"> <div align="center">Comment </div></th>
-        <th width="179"> <div align="center">Action</div></th>
+        <th width="200"> <div align="center">Action</div></th>
     </tr>
     <?php
     while($Result = mysqli_fetch_array($res))
     {
     ?>
     <tr>
-        <td><?php echo $Result['NAME'];?></div></td>
+        <td><?php echo $Result['Name'];?></div></td>
         <td><?php echo $Result['Comment'];?></td>
-        <td><a href="formedit.php" type="button" class="btn btn-primary">Edit</a>&nbsp&nbsp<a href="fromdelete.php" type="button" class="btn btn-danger">Delete</a></td>
+        <td><a href="#fromedit.php" type="button" class="btn btn-primary">Edit</a>&nbsp&nbsp<a href="formdelete.php" type="button" class="btn btn-danger">Delete</a></td>
     </tr>
     <?php
     }
     ?>
     </table>
-    <td><a href="forminsert.php" type="button" class="btn btn-info">Insert</a></td>
+    <td><button type="button" class="btn btn-info">Insert</button></td>
 </div>
 <?php
 mysqli_close($conn);
