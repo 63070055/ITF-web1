@@ -19,10 +19,12 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 ?>
 <div class="contanier">
     <table  class="table table-bordered">
-    <tr class="success">
-        <th width="120"> <div align="center">Name</div></th>
-        <th width="350"> <div align="center">Comment </div></th>
-        <th width="200"> <div align="center">Action</div></th>
+    <tr>
+        <thead class="success">
+            <th width="120"> <div align="center">Name</div></th>
+            <th width="350"> <div align="center">Comment </div></th>
+            <th width="200"> <div align="center">Action</div></th>
+        </thead>
     </tr>
     <?php
     while($Result = mysqli_fetch_array($res))
