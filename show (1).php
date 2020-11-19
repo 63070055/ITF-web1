@@ -18,8 +18,8 @@ if (mysqli_connect_errno($conn))
 $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 ?>
 <div class="contanier">
-    <table width="600" border="1">
-    <tr>
+    <table  class="table table-bordered">
+    <tr class="success">
         <th width="120"> <div align="center">Name</div></th>
         <th width="350"> <div align="center">Comment </div></th>
         <th width="200"> <div align="center">Action</div></th>
@@ -44,3 +44,4 @@ mysqli_close($conn);
 ?>
 </body>
 </html>
+
