@@ -31,14 +31,13 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
     <tr>
         <td><?php echo $Result['Name'];?></div></td>
         <td><?php echo $Result['Comment'];?></td>
-        <td><button type="button" class="btn btn-primary">Primary</button>
-        <button type="button" class="btn btn-danger">Danger</button></td>
+        <td><button type="button" class="btn btn-primary">Edit</button>&nbsp&nbsp<button type="button" class="btn btn-danger">Delete</button></td>
     </tr>
     <?php
     }
     ?>
     </table>
-    <td><button type="button" class="btn btn-info">In</button></td>
+    <td><button type="button" class="btn btn-info">Insert</button></td>
 </div>
 <?php
 mysqli_close($conn);
