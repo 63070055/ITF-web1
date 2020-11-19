@@ -28,11 +28,12 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 while($Result = mysqli_fetch_array($res))
 {
 ?>
-  <tr>
+<tr>
     <td><?php echo $Result['Name'];?></div></td>
     <td><?php echo $Result['Comment'];?></td>
     <td><?php echo $Result['Link'];?></td>
-    <button type="button" class="btn btn-primary">Primary</button>  </tr>
+    <td><button type="button" class="btn btn-primary">Primary</button></td>
+</tr>
 <?php
 }
 ?>
