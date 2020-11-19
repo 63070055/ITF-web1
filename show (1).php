@@ -34,6 +34,7 @@ while($Result = mysqli_fetch_array($res))
     <td><?php echo $Result['Link'];?></td>
     <td><button type="button" class="btn btn-primary">Primary</button>
     <button type="button" class="btn btn-danger">Danger</button></td>
+    <td><button type="button" class="btn btn-info">Info</button></td>
 </tr>
 <?php
 }
